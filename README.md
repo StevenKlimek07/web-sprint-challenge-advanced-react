@@ -40,6 +40,13 @@ Study its functionality and also inspect the Console, the Network tab and the El
   - `y` should be an integer between 1 and 3.
   - `steps` should be an integer larger than 0.
   - `email` should be a valid email address.
+
+
+  {"message": "Ouch: x coordinate must be a number"}
+  {"message": "Ouch: y coordinate must be a number"}
+  {"message": "Ouch: steps must be a number"}
+  {"message": "Ouch: email must be a valid email"}
+
 - Expect an "Unprocessable Entity" server response if the payload has the wrong shape.
 
 ## MVP
